@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564156604878.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "4|55|26|0|\n",
+    "hash" : "0",
+    "id" : "8EB5AAA6",
+    "lastKnownWriteTime" : 1564165020,
+    "last_content_update" : 1564165053240,
+    "path" : "~/parse_json.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "53,12",
+        "scrollLine" : "32",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

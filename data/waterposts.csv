@@ -1,0 +1,95 @@
+lat,lng,name,vejnavn,husnr,postnr,postnrnavn,kommunekode
+56.155787,10.20136,Mølleparken,Åboulevarden,100,8000,Aarhus C,0751
+56.1585,10.205833,Klostertorv,Klostertorvet,10,8000,Aarhus C,0751
+56.17001,10.220779,Risskov,Dronning Margrethes Vej,16,8200,Aarhus N,0751
+56.129284,10.203796,Mindeparken,Carl Nielsens Vej,15B,8000,Aarhus C,0751
+56.152705,10.201608,Ridehuset,Frederiks Allé,6A,8000,Aarhus C,0751
+56.150825,10.204959,Banegårdspladsen,Banegårdspladsen,4A,8000,Aarhus C,0751
+56.139098,10.207785,Tangkrogen,Strandvejen,19,8000,Aarhus C,0751
+56.156581,10.209509,Sct. Clemens Torv,Skt. Clemens Torv,1,8000,Aarhus C,0751
+55.657398,12.635994,Amager Strandvej - helårsåben,Amager Strandvej,168,2300,København S,0101
+55.648857,12.639009,Kastrup Fort - sommeråben,Amager Strandvej,244,2300,København S,0101
+55.651182,12.612627,Sundbyøster Plads legeplads - sommeråben,Smyrnavej,2,2300,København S,0101
+55.651693,12.602246,Sundbyvesterparken - sommeråben,Englandsvej,57,2300,København S,0101
+55.652399,12.597585,Remiseparken - sommeråben,Lygtemagerstien,23,2300,København S,0101
+55.655613,12.588251,Ørestads Boulevard - helårsåben,Ørestads Boulevard,21,2300,København S,0101
+55.654989,12.613828,Kirkegårdsvej/Højdevej - sommeråben,Højdevej,27C,2300,København S,0101
+55.656333,12.602434,Sæterdalsgade legeplads - sommeråben,Sætersdalgade,13,2300,København S,0101
+55.661405,12.611382,Rødegårdsparken legeplads - sommeråben,Rødegård,7,2300,København S,0101
+55.657834,12.604344,Skotlands Plads legeplads - sommeråben,Skotlands Plads,1,2300,København S,0101
+55.664068,12.598593,Norgesgade legeplads - sommeråben,Syvens Allé,5,2300,København S,0101
+55.665472,12.579002,Gunløgsgade legeplads - sommeråben,Gunløgsgade,21,2300,København S,0101
+55.66558,12.574582,Havneparken legeplads - sommeråben,Islands Brygge,20,2300,København S,0101
+55.669151,12.595353,Christmas Møllers Plads - helårsåben,Ved Stadsgraven,2A,2300,København S,0101
+55.67629,12.588519,Havnegade - helårsåben - midlertidig ude af drift,Havnegade,20,1058,København K,0101
+55.67802,12.579925,Højbro Plads - sommeråben,Højbro Plads,10,1200,København K,0101
+55.680494,12.587543,Nyhavn - helårsåben,Nyhavn,1F,1051,København K,0101
+55.679992,12.575966,Gråbrødretorv - sommeråben,Gråbrødretorv,8,1154,København K,0101
+55.679865,12.573477,Fiolstræde/Frue Plads - sommeråben,Fiolstræde,6,1171,København K,0101
+55.68142,12.575494,Landemærket - helårsåben,Købmagergade,52A,1150,København K,0101
+55.689116,12.59751,Churchillparken ved Gefion - helårsåben,Churchillparken,11,1263,København K,0101
+55.686706,12.562137,Peblingesøen ved bådudlejningen - helårsåben,Peblinge Dossering,6,2200,København N,0101
+55.694531,12.572844,Sortedams Dossering/Helgesensgade - helårsåben,Sortedam Dossering,65B,2100,København Ø,0101
+55.697446,12.578037,Sortedams Dossering/Østerbrogade - helårsåben,Sortedam Dossering,101,2100,København Ø,0101
+55.69874,12.575344,"Fælledparken, ved Trianglen - helårsåben - midlertidig pga. metrobyggeri",Blegdamsvej,35,2100,København Ø,0101
+55.699695,12.57322,"Fælledparken, Sansehaven - sommeråben",Øster Allé,1E,2100,København Ø,0101
+55.697452,12.569518,"Fælledparken, Tårnlegepladsen - sommeråben",Frederik V's Vej,4,2100,København Ø,0101
+55.699205,12.563349,"Fælledparken, Skatepark - sommeråben",Edel Sauntes Allé,3,2100,København Ø,0101
+55.693866,12.566332,Amorparken - sommeråben,Fredensgade,27,2200,København N,0101
+55.686645,12.557523,Blågårds Plads - sommeråben,Blågårds Plads,6,2200,København N,0101
+55.69123,12.539349,Borups Plads - helårsåben,Stefansgade,71,2200,København N,0101
+55.693116,12.539799,Rungsted Plads - sommeråben,Rungsted Plads,8,2200,København N,0101
+55.694882,12.541848,Nørrebroparken legeplads - sommeråben,Stefansgade,24,2200,København N,0101
+55.700959,12.542481,Superkilen - helårsåben,Mimersgade,77,2200,København N,0101
+55.698486,12.52111,Genforeningspladsen - sommeråben,Genforeningspladsen,15,2400,København NV,0101
+55.693818,12.51184,Grøndal Torv - sommeråben,Godthåbsvej,240,2720,Vanløse,0101
+55.702494,12.509254,Bellahøjparken - sommeråben,Solkrogen,8,2700,Brønshøj,0101
+55.704084,12.497978,Brønshøj Torv - helårsåben,Brønshøjvej,1,2700,Brønshøj,0101
+55.710141,12.52539,Degnestavnen legeplads - sommeråben,Degnestavnen,20,2400,København NV,0101
+55.704749,12.522011,Hulgårds Plads legeplads - sommeråben,Hulgårds Plads,6,2400,København NV,0101
+55.717925,12.549176,Keldsøvej boldbane - sommeråben,Bredelandsvej,30,2100,København Ø,0101
+55.71459,12.565441,Kildevældsparken legeplads - sommeråben,Vognmandsmarken,69,2100,København Ø,0101
+55.71517,12.578101,Svanemøllen Station cykelparkering - helårsåben,Ved Sporsløjfen,1,2100,København Ø,0101
+55.711604,12.57514,Musholmgade legeplads - sommeråben,Strynøgade,10,2100,København Ø,0101
+55.70649,12.582757,Århus Plads legeplads - sommeråben,Århusgade,62,2100,København Ø,0101
+55.703341,12.58559,Melchiors Plads - sommeråben,Nordre Frihavnsgade,71,2100,København Ø,0101
+55.704326,12.571363,"Fælledparken, ved trafiklegepladsen - helårsåben",Gunnar Nu Hansens Plads,10,2100,København Ø,0101
+55.70348,12.557352,Sifs Plads - helårsåben,Sifs Plads,6,2100,København Ø,0101
+55.706091,12.552073,Krakas Plads - helårsåben,Vermundsgade,25C,2100,København Ø,0101
+55.670397,12.560763,Halmtorvet - sommeråben,Halmtorvet,16,1700,København V,0101
+55.704797,12.585053,Silkeborg Plads legeplads - sommeråben,Silkeborggade,13,2100,København Ø,0101
+55.670542,12.553833,Skydebanehaven legeplads - sommeråben,Absalonsgade,22,1658,København V,0101
+55.669937,12.551912,Saxoparken - sommeråben,Matthæusgade,6,1666,København V,0101
+55.665998,12.543758,Enghave Plads - helårsåben,Ny Carlsberg Vej,23,1760,København V,0101
+55.666815,12.540658,Enghaveparken syd - sommeråben,Ejderstedgade,14,1761,København V,0101
+55.667795,12.54114,Enghaveparken nord - sommeråben,Ejderstedgade,3,1761,København V,0101
+55.657792,12.478473,"Vigerslevparken, Lykkebovej, legeplads - sommeråben",Engdals Allé,20,2500,Valby,0101
+55.682841,12.568465,Israels Plads - helårsåben,Israels Plads,1,1361,København K,0101
+55.648589,12.534123,Mozarts Plads - helårsåben,Mozarts Plads,3,2450,København SV,0101
+55.689427,12.544477,Hans Egedes Gade - helsårsåben,Hans Egedes Gade,2,2200,København N,0101
+55.68371,12.572471,Nørreport Station Nord - helårsåben,Nørre Voldgade,19A,1358,København K,0101
+55.683322,12.57187,Nørreport Station Syd - helårsåben,Nørre Voldgade,15A,1358,København K,0101
+55.718076,12.524783,Rådvadsvej - helårsåben,Rådvadsvej,69,2400,København NV,0101
+55.663507,12.5413,Sønder Boulevard - helårsåben - ude af drift,Sønder Boulevard,133,1720,København V,0101
+55.671494,12.603704,Syddyssen 5 - helårsåben,Syddyssen,9,1441,København K,0101
+55.681292,12.473671,Damhuskanten - helårsåben,Damhusdæmningen,2B,2720,Vanløse,0101
+55.396266,10.388378,"Odense Rådhus, Flakhaven",Flakhaven,2B,5000,Odense C,0461
+55.392226,10.381546,Munke Mose,Filosofgangen,30B,5000,Odense C,0461
+55.36979,10.382982,Fruens Bøge,Skovalléen,50,5250,Odense SV,0461
+55.412576,10.396205,Fredens Anlæg,Skibhusvej,167,5000,Odense C,0461
+55.408611,10.319096,Langesøstien Pårup Kirke,Paarupvej,56,5210,Odense NV,0461
+55.41507,10.274609,Langesøstien ved Åbakkevej,Åbakkevej,29,5210,Odense NV,0461
+55.360112,10.406842,Bjørnemosevej,Brombærvej,25,5260,Odense S,0461
+55.398325,10.40924,Sankt Jørgens Park,Jomsborgvej,12,5000,Odense C,0461
+55.399294,10.384859,Kongens Have,Jernbanegade,34,5000,Odense C,0461
+55.393649,10.374162,Roersvej ved Vestre Skole,Roersvej,10,5000,Odense C,0461
+55.362363,10.36853,Dalumgårds Alle,Dalumgårds Allé,40,5250,Odense SV,0461
+55.395931,10.382262,Kongensgade,Kongensgade,21,5000,Odense C,0461
+55.386648,10.407346,Munkedamstien ved Hjortebjergvej/Kragsbjergvej,Hjortebjergvej,1,5230,Odense M,0461
+55.38576,10.322905,Elmelund Skov,Elmelundsvej,47,5200,Odense V,0461
+55.371783,10.317549,Hundeskoven i Elmelund skov,Bavnedamvej,50,5250,Odense SV,0461
+55.400634,10.348778,Højstrupparken,Møllemarksvej,84,5200,Odense V,0461
+55.391037,10.384964,Munke Mose Allé ved træningsredskaberne,Munke Mose Allé,8B,5000,Odense C,0461
+55.381817,10.300283,"Elmelund Skov, madpakkehuset",Elmelundsvej,121,5250,Odense SV,0461
+55.343582,10.338063,"Blåklokkevej, Dyrup",Blåklokkevej,109,5250,Odense SV,0461
+55.403532,10.40684,Kertemindestien ved Kræmmermarken,Kræmmermarken Havekoloni,2,5000,Odense C,0461

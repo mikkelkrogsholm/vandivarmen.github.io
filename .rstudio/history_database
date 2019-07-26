@@ -1,0 +1,206 @@
+1564156622318:library(tidyverse)
+1564156641571:json_files <- list.files("data")
+1564156653079:json_files <- list.files("data", full.names = TRUE)
+1564156659295:json_file <- json_files[1]
+1564156668383:jsonlite::fromJSON(json_file)
+1564156672824:x <- jsonlite::fromJSON(json_file)
+1564156699846:features <- x$features
+1564156724794:features$features
+1564156740266:features$features$geometry$coordinates
+1564156746723:coords <- features$features$geometry$coordinates
+1564156760819:coords %>% as_tibble()
+1564156776642:coords %>% map_dfr(function(x) x)
+1564156782124:coords[[1]]
+1564156793471:coords[[1]] %>% as_tibble()
+1564156798408:coords[[1]] %>% as_list()
+1564156801797:coords[[1]] %>% list()
+1564156821767:coords[[1]] %>% as_tibble()
+1564156848733:coords[[1]] %>%
+1564156848759:as_tibble() %>%
+1564156848785:mutate(coord = c("lat", "lng"))
+1564156859150:coords[[1]] %>%
+1564156859176:as_tibble() %>%
+1564156859197:mutate(coord = c("lat", "lng")) %>%
+1564156859227:spread(coord, value)
+1564156886788:coords[[1]] %>%
+1564156886806:as_tibble() %>%
+1564156886823:mutate(coord = c("lng", "lat")) %>%
+1564156886841:spread(coord, value)
+1564156903528:x %>%
+1564156903556:as_tibble() %>%
+1564156903582:mutate(coord = c("lng", "lat")) %>%
+1564156903608:spread(coord, value)
+1564156904954:coords %>% map_dfr(function(x){
+1564156904978:x %>%
+1564156905008:as_tibble() %>%
+1564156905032:mutate(coord = c("lng", "lat")) %>%
+1564156905057:spread(coord, value)
+1564156905081:})
+1564156922428:coords <- features$features$geometry$coordinates %>%
+1564156922466:map_dfr(function(x){
+1564156922493:x %>%
+1564156922521:as_tibble() %>%
+1564156922550:mutate(coord = c("lng", "lat")) %>%
+1564156922578:spread(coord, value)
+1564156922605:})
+1564156923918:coords
+1564156939208:features$features$properties
+1564156947091:props <- features$features$properties
+1564156955023:props$style <- NULL
+1564156958736:props
+1564157010239:props <- features$features$properties %>%
+1564157010267:select(name = layerName, popup = popupContent)
+1564157012844:props
+1564157033148:props <- features$features$properties %>%
+1564157033177:select(name = layerName, popup = popupContent) %>%
+1564157033204:as_tibble()
+1564157035577:props
+1564157056489:bind_cols(coords, props)
+1564157110706:parsed_data <- map_dfr(json_files, function(json_file){
+1564157110744:x <- jsonlite::fromJSON(json_file)
+1564157110781:features <- x$features
+1564157110811:coords <- features$features$geometry$coordinates %>%
+1564157110834:map_dfr(function(x){
+1564157110854:x %>%
+1564157110874:as_tibble() %>%
+1564157110895:mutate(coord = c("lng", "lat")) %>%
+1564157110914:spread(coord, value)
+1564157110935:})
+1564157110970:props <- features$features$properties %>%
+1564157110991:select(name = layerName, popup = popupContent) %>%
+1564157111009:as_tibble()
+1564157111036:out <- bind_cols(coords, props)
+1564157111063:return(out)
+1564157111089:})
+1564157112712:parsed_data
+1564157117325:View(parsed_data)
+1564157182019:parsed_data %>%
+1564157182044:jsonlite::toJSON(pretty = TRUE)
+1564157219675:library(tidyverse)
+1564157219719:json_files <- list.files("data", full.names = TRUE)
+1564157219772:parsed_data <- map_dfr(json_files, function(json_file){
+1564157219812:x <- jsonlite::fromJSON(json_file)
+1564157219856:features <- x$features
+1564157219900:coords <- features$features$geometry$coordinates %>%
+1564157219923:map_dfr(function(x){
+1564157219947:x %>%
+1564157219965:as_tibble() %>%
+1564157219976:mutate(coord = c("lng", "lat")) %>%
+1564157219992:spread(coord, value)
+1564157220011:})
+1564157220039:props <- features$features$properties %>%
+1564157220057:select(name = layerName) %>%
+1564157220076:as_tibble()
+1564157220103:out <- bind_cols(coords, props)
+1564157220132:return(out)
+1564157220161:})
+1564157220660:parsed_data %>%
+1564157220682:jsonlite::toJSON(pretty = TRUE)
+1564157248835:parsed_data %>%
+1564157248863:jsonlite::toJSON(pretty = TRUE) %>%
+1564157248885:write_file("data/waterposts.json")
+1564158542150:parsed_data
+1564158622987:i <- 1
+1564158624700:lng <- parsed_data$lng[i]
+1564158624950:lat <- parsed_data$lat[i]
+1564158625390:url <- glue::glue("https://dawa.aws.dk/adgangsadresser/reverse?x={lng}&y={lat}&struktur=mini")
+1564158626928:url
+1564158637146:jsonlite::fromJSON(url)
+1564158653314:jsonlite::fromJSON(url) %>%
+1564158653342:as_tibble()
+1564158665677:jsonlite::fromJSON(url) %>%
+1564158665708:tibble()
+1564158671839:jsonlite::fromJSON(url) %>%
+1564158671867:as_tibble()
+1564158676136:jsonlite::fromJSON(url)
+1564158695035:data <- jsonlite::fromJSON(url)
+1564158716561:data[c("vejnavn")]
+1564158744588:data[c("vejnavn", "husnr", "postnr", "postnrnavn", "kommunekode")]
+1564158750138:data[c("vejnavn", "husnr", "postnr", "postnrnavn", "kommunekode")] %>%
+1564158750166:as_tibble()
+1564158791964:adressedata <- map_dfr(1:nrow(parsed_data), function(i){
+1564158791999:lng <- parsed_data$lng[i]
+1564158792022:lat <- parsed_data$lat[i]
+1564158792041:url <- glue::glue("https://dawa.aws.dk/adgangsadresser/reverse?x={lng}&y={lat}&struktur=mini")
+1564158792072:data <- jsonlite::fromJSON(url)
+1564158792108:data[c("vejnavn", "husnr", "postnr", "postnrnavn", "kommunekode")] %>%
+1564158792130:as_tibble()
+1564158792162:})
+1564158848015:parsed_data %>%
+1564158848043:bind_cols(adressedata)
+1564158862924:out <- parsed_data %>%
+1564158862949:bind_cols(adressedata)
+1564158868469:out %>%
+1564158868515:jsonlite::toJSON(pretty = TRUE) %>%
+1564158868548:write_file("data/waterposts.json")
+1564158885558:out %>%
+1564158885581:write_csv("data/waterposts.csv")
+1564165033284:install.packages("leaflet")
+1564165272557:library(tidyverse)
+1564165283504:library(leaflet)
+1564165295219:data <- read_csv("data/waterposts.csv")
+1564165396946:data %>%
+1564165396973:mutate(pop = glue::glue("{name} <br>
+1564165396996:{vejnavn} {husnr} <br>
+1564165397020:{postnr} {postnrnavn}"))
+1564165435242:data %>%
+1564165435264:mutate(pop = glue::glue("<strong> {name} </strong> <br>
+1564165435287:{vejnavn} {husnr} <br>
+1564165435307:{postnr} {postnrnavn}"))
+1564165438864:data <- read_csv("data/waterposts.csv")  %>%
+1564165438916:mutate(pop = glue::glue("<strong> {name} </strong> <br>
+1564165438986:{vejnavn} {husnr} <br>
+1564165439015:{postnr} {postnrnavn}"))
+1564165443360:data
+1564165545594:leaflet(data) %>%
+1564165545651:addTiles() %>%
+1564165545741:addMarkers()
+1564165823262:water_icon <- makeIcon(iconUrl = "data/tap.png")
+1564165841673:leaflet(data) %>%
+1564165841747:addTiles() %>%
+1564165841827:addMarkers(icon = water_icon)
+1564165870914:water_icon <- makeIcon(iconUrl = "data/tap.png",
+1564165871017:iconWidth = 32)
+1564165871905:leaflet(data) %>%
+1564165872012:addTiles() %>%
+1564165872133:addMarkers(icon = water_icon)
+1564165919347:leaflet(data) %>%
+1564165919419:addTiles() %>%
+1564165919508:addMarkers(icon = water_icon,
+1564165919616:popup = ~ pop)
+1564165981587:data <- read_csv("data/waterposts.csv")  %>%
+1564165981656:mutate(pop = glue::glue("<strong> {name} </strong> <br> <br>
+1564165981731:{vejnavn} {husnr} <br>
+1564165981819:{postnr} {postnrnavn}"))
+1564165982659:water_icon <- makeIcon(iconUrl = "data/tap.png",
+1564165982691:iconWidth = 32)
+1564165982907:leaflet(data) %>%
+1564165982950:addTiles() %>%
+1564165982990:addMarkers(icon = water_icon,
+1564165983024:popup = ~ pop)
+1564166091401:leaflet(data) %>%
+1564166091432:addTiles() %>%
+1564166091458:addMarkers(icon = water_icon,
+1564166091486:popup = ~ pop) %>%
+1564166091512:addEasyButton(easyButton(
+1564166091536:icon="fa-crosshairs", title="Find mig",
+1564166091561:onClick=JS("function(btn, map){ map.locate({setView: true}); }")))
+1564166268871:library(tidyverse)
+1564166268904:library(leaflet)
+1564166268936:library(htmltools)
+1564166269053:library(htmlwidgets)
+1564166272757:leaflet(data) %>%
+1564166272785:addTiles() %>%
+1564166272818:addMarkers(icon = water_icon,
+1564166272855:popup = ~ pop) %>%
+1564166272892:addEasyButton(easyButton(
+1564166272941:icon="fa-crosshairs", title="Find mig",
+1564166272990:onClick=JS("function(btn, map){ map.locate({setView: true}); }")))
+1564166328742:m <- leaflet(data) %>%
+1564166328782:addTiles() %>%
+1564166328827:addMarkers(icon = water_icon,
+1564166328876:popup = ~ pop) %>%
+1564166328947:addEasyButton(easyButton(
+1564166328981:icon="fa-crosshairs", title="Find mig",
+1564166329009:onClick=JS("function(btn, map){ map.locate({setView: true}); }")))
+1564166355929:htmlwidgets::saveWidget(widget = m, file = "leafletmap.html")

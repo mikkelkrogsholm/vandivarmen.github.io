@@ -1,0 +1,1 @@
+docker run --rm -d -p 8787 --name vand -v $PWD:/home/mikkel/  -e PASSWORD=mikkel -e USER=mikkel rocker/tidyverse:3.6.0

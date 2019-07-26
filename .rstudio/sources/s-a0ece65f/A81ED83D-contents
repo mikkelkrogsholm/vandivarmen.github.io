@@ -1,0 +1,24 @@
+library(tidyverse)
+library(leaflet)
+library(htmltools)
+library(htmlwidgets)
+
+data <- read_csv("data/waterposts.csv")  %>%
+  mutate(pop = glue::glue("<strong> {name} </strong> <br> <br> 
+                           {vejnavn} {husnr} <br>
+                           {postnr} {postnrnavn}"))
+
+
+water_icon <- makeIcon(iconUrl = "data/tap.png",
+                       iconWidth = 32)
+
+m <- leaflet(data) %>%
+  addTiles() %>%
+  addMarkers(icon = water_icon,
+             popup = ~ pop) %>%
+  addEasyButton(easyButton(
+    icon="fa-crosshairs", title="Find mig",
+    onClick=JS("function(btn, map){ map.locate({setView: true}); }")))
+  
+
+htmlwidgets::saveWidget(widget = m, file = "leafletmap.html")

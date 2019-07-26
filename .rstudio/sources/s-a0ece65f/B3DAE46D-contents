@@ -1,0 +1,472 @@
+[
+  {
+    "lat": 56.1558,
+    "lng": 10.2014,
+    "name": "Mølleparken"
+  },
+  {
+    "lat": 56.1585,
+    "lng": 10.2058,
+    "name": "Klostertorv"
+  },
+  {
+    "lat": 56.17,
+    "lng": 10.2208,
+    "name": "Risskov"
+  },
+  {
+    "lat": 56.1293,
+    "lng": 10.2038,
+    "name": "Mindeparken"
+  },
+  {
+    "lat": 56.1527,
+    "lng": 10.2016,
+    "name": "Ridehuset"
+  },
+  {
+    "lat": 56.1508,
+    "lng": 10.205,
+    "name": "Banegårdspladsen"
+  },
+  {
+    "lat": 56.1391,
+    "lng": 10.2078,
+    "name": "Tangkrogen"
+  },
+  {
+    "lat": 56.1566,
+    "lng": 10.2095,
+    "name": "Sct. Clemens Torv"
+  },
+  {
+    "lat": 55.6574,
+    "lng": 12.636,
+    "name": "Amager Strandvej - helårsåben"
+  },
+  {
+    "lat": 55.6489,
+    "lng": 12.639,
+    "name": "Kastrup Fort - sommeråben"
+  },
+  {
+    "lat": 55.6512,
+    "lng": 12.6126,
+    "name": "Sundbyøster Plads legeplads - sommeråben"
+  },
+  {
+    "lat": 55.6517,
+    "lng": 12.6022,
+    "name": "Sundbyvesterparken - sommeråben"
+  },
+  {
+    "lat": 55.6524,
+    "lng": 12.5976,
+    "name": "Remiseparken - sommeråben"
+  },
+  {
+    "lat": 55.6556,
+    "lng": 12.5883,
+    "name": "Ørestads Boulevard - helårsåben"
+  },
+  {
+    "lat": 55.655,
+    "lng": 12.6138,
+    "name": "Kirkegårdsvej/Højdevej - sommeråben"
+  },
+  {
+    "lat": 55.6563,
+    "lng": 12.6024,
+    "name": "Sæterdalsgade legeplads - sommeråben"
+  },
+  {
+    "lat": 55.6614,
+    "lng": 12.6114,
+    "name": "Rødegårdsparken legeplads - sommeråben"
+  },
+  {
+    "lat": 55.6578,
+    "lng": 12.6043,
+    "name": "Skotlands Plads legeplads - sommeråben"
+  },
+  {
+    "lat": 55.6641,
+    "lng": 12.5986,
+    "name": "Norgesgade legeplads - sommeråben"
+  },
+  {
+    "lat": 55.6655,
+    "lng": 12.579,
+    "name": "Gunløgsgade legeplads - sommeråben"
+  },
+  {
+    "lat": 55.6656,
+    "lng": 12.5746,
+    "name": "Havneparken legeplads - sommeråben"
+  },
+  {
+    "lat": 55.6692,
+    "lng": 12.5954,
+    "name": "Christmas Møllers Plads - helårsåben"
+  },
+  {
+    "lat": 55.6763,
+    "lng": 12.5885,
+    "name": "Havnegade - helårsåben - midlertidig ude af drift"
+  },
+  {
+    "lat": 55.678,
+    "lng": 12.5799,
+    "name": "Højbro Plads - sommeråben"
+  },
+  {
+    "lat": 55.6805,
+    "lng": 12.5875,
+    "name": "Nyhavn - helårsåben"
+  },
+  {
+    "lat": 55.68,
+    "lng": 12.576,
+    "name": "Gråbrødretorv - sommeråben"
+  },
+  {
+    "lat": 55.6799,
+    "lng": 12.5735,
+    "name": "Fiolstræde/Frue Plads - sommeråben"
+  },
+  {
+    "lat": 55.6814,
+    "lng": 12.5755,
+    "name": "Landemærket - helårsåben"
+  },
+  {
+    "lat": 55.6891,
+    "lng": 12.5975,
+    "name": "Churchillparken ved Gefion - helårsåben"
+  },
+  {
+    "lat": 55.6867,
+    "lng": 12.5621,
+    "name": "Peblingesøen ved bådudlejningen - helårsåben"
+  },
+  {
+    "lat": 55.6945,
+    "lng": 12.5728,
+    "name": "Sortedams Dossering/Helgesensgade - helårsåben"
+  },
+  {
+    "lat": 55.6974,
+    "lng": 12.578,
+    "name": "Sortedams Dossering/Østerbrogade - helårsåben"
+  },
+  {
+    "lat": 55.6987,
+    "lng": 12.5753,
+    "name": "Fælledparken, ved Trianglen - helårsåben - midlertidig pga. metrobyggeri"
+  },
+  {
+    "lat": 55.6997,
+    "lng": 12.5732,
+    "name": "Fælledparken, Sansehaven - sommeråben"
+  },
+  {
+    "lat": 55.6975,
+    "lng": 12.5695,
+    "name": "Fælledparken, Tårnlegepladsen - sommeråben"
+  },
+  {
+    "lat": 55.6992,
+    "lng": 12.5633,
+    "name": "Fælledparken, Skatepark - sommeråben"
+  },
+  {
+    "lat": 55.6939,
+    "lng": 12.5663,
+    "name": "Amorparken - sommeråben"
+  },
+  {
+    "lat": 55.6866,
+    "lng": 12.5575,
+    "name": "Blågårds Plads - sommeråben"
+  },
+  {
+    "lat": 55.6912,
+    "lng": 12.5393,
+    "name": "Borups Plads - helårsåben"
+  },
+  {
+    "lat": 55.6931,
+    "lng": 12.5398,
+    "name": "Rungsted Plads - sommeråben"
+  },
+  {
+    "lat": 55.6949,
+    "lng": 12.5418,
+    "name": "Nørrebroparken legeplads - sommeråben"
+  },
+  {
+    "lat": 55.701,
+    "lng": 12.5425,
+    "name": "Superkilen - helårsåben"
+  },
+  {
+    "lat": 55.6985,
+    "lng": 12.5211,
+    "name": "Genforeningspladsen - sommeråben"
+  },
+  {
+    "lat": 55.6938,
+    "lng": 12.5118,
+    "name": "Grøndal Torv - sommeråben"
+  },
+  {
+    "lat": 55.7025,
+    "lng": 12.5093,
+    "name": "Bellahøjparken - sommeråben"
+  },
+  {
+    "lat": 55.7041,
+    "lng": 12.498,
+    "name": "Brønshøj Torv - helårsåben"
+  },
+  {
+    "lat": 55.7101,
+    "lng": 12.5254,
+    "name": "Degnestavnen legeplads - sommeråben"
+  },
+  {
+    "lat": 55.7047,
+    "lng": 12.522,
+    "name": "Hulgårds Plads legeplads - sommeråben"
+  },
+  {
+    "lat": 55.7179,
+    "lng": 12.5492,
+    "name": "Keldsøvej boldbane - sommeråben"
+  },
+  {
+    "lat": 55.7146,
+    "lng": 12.5654,
+    "name": "Kildevældsparken legeplads - sommeråben"
+  },
+  {
+    "lat": 55.7152,
+    "lng": 12.5781,
+    "name": "Svanemøllen Station cykelparkering - helårsåben"
+  },
+  {
+    "lat": 55.7116,
+    "lng": 12.5751,
+    "name": "Musholmgade legeplads - sommeråben"
+  },
+  {
+    "lat": 55.7065,
+    "lng": 12.5828,
+    "name": "Århus Plads legeplads - sommeråben"
+  },
+  {
+    "lat": 55.7033,
+    "lng": 12.5856,
+    "name": "Melchiors Plads - sommeråben"
+  },
+  {
+    "lat": 55.7043,
+    "lng": 12.5714,
+    "name": "Fælledparken, ved trafiklegepladsen - helårsåben"
+  },
+  {
+    "lat": 55.7035,
+    "lng": 12.5574,
+    "name": "Sifs Plads - helårsåben"
+  },
+  {
+    "lat": 55.7061,
+    "lng": 12.5521,
+    "name": "Krakas Plads - helårsåben"
+  },
+  {
+    "lat": 55.6704,
+    "lng": 12.5608,
+    "name": "Halmtorvet - sommeråben"
+  },
+  {
+    "lat": 55.7048,
+    "lng": 12.5851,
+    "name": "Silkeborg Plads legeplads - sommeråben"
+  },
+  {
+    "lat": 55.6705,
+    "lng": 12.5538,
+    "name": "Skydebanehaven legeplads - sommeråben"
+  },
+  {
+    "lat": 55.6699,
+    "lng": 12.5519,
+    "name": "Saxoparken - sommeråben"
+  },
+  {
+    "lat": 55.666,
+    "lng": 12.5438,
+    "name": "Enghave Plads - helårsåben"
+  },
+  {
+    "lat": 55.6668,
+    "lng": 12.5407,
+    "name": "Enghaveparken syd - sommeråben"
+  },
+  {
+    "lat": 55.6678,
+    "lng": 12.5411,
+    "name": "Enghaveparken nord - sommeråben"
+  },
+  {
+    "lat": 55.6578,
+    "lng": 12.4785,
+    "name": "Vigerslevparken, Lykkebovej, legeplads - sommeråben"
+  },
+  {
+    "lat": 55.6828,
+    "lng": 12.5685,
+    "name": "Israels Plads - helårsåben"
+  },
+  {
+    "lat": 55.6486,
+    "lng": 12.5341,
+    "name": "Mozarts Plads - helårsåben"
+  },
+  {
+    "lat": 55.6894,
+    "lng": 12.5445,
+    "name": "Hans Egedes Gade - helsårsåben"
+  },
+  {
+    "lat": 55.6837,
+    "lng": 12.5725,
+    "name": "Nørreport Station Nord - helårsåben"
+  },
+  {
+    "lat": 55.6833,
+    "lng": 12.5719,
+    "name": "Nørreport Station Syd - helårsåben"
+  },
+  {
+    "lat": 55.7181,
+    "lng": 12.5248,
+    "name": "Rådvadsvej - helårsåben"
+  },
+  {
+    "lat": 55.6635,
+    "lng": 12.5413,
+    "name": "Sønder Boulevard - helårsåben - ude af drift"
+  },
+  {
+    "lat": 55.6715,
+    "lng": 12.6037,
+    "name": "Syddyssen 5 - helårsåben"
+  },
+  {
+    "lat": 55.6813,
+    "lng": 12.4737,
+    "name": "Damhuskanten - helårsåben"
+  },
+  {
+    "lat": 55.3963,
+    "lng": 10.3884,
+    "name": "Odense Rådhus, Flakhaven"
+  },
+  {
+    "lat": 55.3922,
+    "lng": 10.3815,
+    "name": "Munke Mose"
+  },
+  {
+    "lat": 55.3698,
+    "lng": 10.383,
+    "name": "Fruens Bøge"
+  },
+  {
+    "lat": 55.4126,
+    "lng": 10.3962,
+    "name": "Fredens Anlæg"
+  },
+  {
+    "lat": 55.4086,
+    "lng": 10.3191,
+    "name": "Langesøstien Pårup Kirke"
+  },
+  {
+    "lat": 55.4151,
+    "lng": 10.2746,
+    "name": "Langesøstien ved Åbakkevej"
+  },
+  {
+    "lat": 55.3601,
+    "lng": 10.4068,
+    "name": "Bjørnemosevej"
+  },
+  {
+    "lat": 55.3983,
+    "lng": 10.4092,
+    "name": "Sankt Jørgens Park"
+  },
+  {
+    "lat": 55.3993,
+    "lng": 10.3849,
+    "name": "Kongens Have"
+  },
+  {
+    "lat": 55.3936,
+    "lng": 10.3742,
+    "name": "Roersvej ved Vestre Skole"
+  },
+  {
+    "lat": 55.3624,
+    "lng": 10.3685,
+    "name": "Dalumgårds Alle"
+  },
+  {
+    "lat": 55.3959,
+    "lng": 10.3823,
+    "name": "Kongensgade"
+  },
+  {
+    "lat": 55.3866,
+    "lng": 10.4073,
+    "name": "Munkedamstien ved Hjortebjergvej/Kragsbjergvej"
+  },
+  {
+    "lat": 55.3858,
+    "lng": 10.3229,
+    "name": "Elmelund Skov"
+  },
+  {
+    "lat": 55.3718,
+    "lng": 10.3175,
+    "name": "Hundeskoven i Elmelund skov"
+  },
+  {
+    "lat": 55.4006,
+    "lng": 10.3488,
+    "name": "Højstrupparken"
+  },
+  {
+    "lat": 55.391,
+    "lng": 10.385,
+    "name": "Munke Mose Allé ved træningsredskaberne"
+  },
+  {
+    "lat": 55.3818,
+    "lng": 10.3003,
+    "name": "Elmelund Skov, madpakkehuset"
+  },
+  {
+    "lat": 55.3436,
+    "lng": 10.3381,
+    "name": "Blåklokkevej, Dyrup"
+  },
+  {
+    "lat": 55.4035,
+    "lng": 10.4068,
+    "name": "Kertemindestien ved Kræmmermarken"
+  }
+]
